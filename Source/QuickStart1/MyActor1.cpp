@@ -55,7 +55,7 @@ void AMyActor1::Tick(float DeltaTime)
     
     SetActorLocationAndRotation(NewLocation, NewRotation);
     
-    NewScale.Z += 0.03f * DeltaTime;
+    NewScale.Z += 0.05f * DeltaTime;
     
     SetActorScale3D(NewScale);
     
