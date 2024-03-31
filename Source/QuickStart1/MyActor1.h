@@ -24,6 +24,10 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MyActor1");
     float RotationSpeed = 20.0f;
     
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MyActor1");
+    float ScaleSize = 0.05f;
+    
+    
     
 protected:
 	// Called when the game starts or when spawned
