@@ -55,13 +55,13 @@ void AMyActor1::Tick(float DeltaTime)
     
     SetActorLocationAndRotation(NewLocation, NewRotation);
     
-    NewScale.Z += 0.05f * DeltaTime;
+    NewScale.Z += ScaleSize * DeltaTime;
     
     SetActorScale3D(NewScale);
     
     
     
-    
+  //test using void to learn void function and put call void under BeginPlay()
 }
 //void AMyActor1::ScaleActor()
 //{
